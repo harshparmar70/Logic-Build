@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int n1 = 28;
+    int n2 = 20;
+    int gcd;
+
+    for (int i = 1; i<=n1 && i<=n2; i++)
+    {
+        if (n1%i==0 && n2%i==0)
+        {
+            gcd=i;
+
+        }
+        
+    }
+    printf("%d",gcd);
+    
+    return 0;
+}
